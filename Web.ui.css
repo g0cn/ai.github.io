@@ -1,0 +1,295 @@
+@media (max-width: 768px) {
+.weui-cells__title {
+font-size: 20px;
+margin: 10px 0;
+}
+
+.weui-cell__bd {
+padding: 8px;
+margin-bottom: 8px;
+}
+}
+
+/* 输入框样式 */
+.weui-input {
+margin-right: 10px;
+border: 1px solid #ccc;
+padding: 8px;
+width: 100%;
+max-width: 400px;
+box-sizing: border-box;
+
+&:focus {
+outline: none;
+box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.3);
+}
+}
+
+/* 按钮样式 */
+.weui-btn_primary {
+background-color: #1aad19;
+border-color: #1aad19;
+color: #fff;
+padding: 8px 16px;
+cursor: pointer;
+
+&:hover {
+background-color: #0d8c13;
+border-color: #0d8c13;
+}
+
+&:active {
+background-color: #0b6e0f;
+border-color: #0b6e0f;
+}
+
+&:focus {
+outline: none;
+box-shadow: 0 0 0 2px rgba(26, 173, 25, 0.3);
+}
+}
+
+/* 其他样式 */
+.weui-cells__title {
+font-size: 24px;
+margin: 20px 0;
+}
+
+.weui-cells__title--small {
+font-size: 20px;
+margin: 10px 0;
+}
+
+.weui-cells__title--large {
+font-size: 30px;
+margin: 30px 0;
+}
+
+.weui-cells__title--center {
+text-align: center;
+}
+
+.weui-cells__title--right {
+text-align: right;
+}
+
+.weui-cells__title--left {
+text-align: left;
+}
+
+.weui-cells__title--bold {
+font-weight: bold;
+}
+
+.weui-cells__desc {
+font-size: 14px;
+color: #888;
+}
+
+.weui-cells__tips {
+font-size: 12px;
+color: #888;
+}
+
+.weui-cell__bd--no-radius {
+border-radius: 0;
+}
+
+.weui-cell__bd--no-padding {
+padding: 0;
+}
+
+.weui-cell__ft--no-padding {
+padding: 0;
+}
+
+.weui-cell__ft--small {
+font-size: 12px;
+}
+
+.weui-cell__ft--large {
+font-size: 18px;
+}
+
+.weui-cell__ft--center {
+text-align: center;
+}
+
+.weui-cell__ft--right {
+text-align: right;
+}
+
+.weui-cell__ft--left {
+text-align: left;
+}
+
+.weui-cell__ft--bold {
+font-weight: bold;
+}
+
+.weui-cell__ft--link {
+color: #1aad19;
+text-decoration: underline;
+}
+
+.weui-cell__ft--disabled {
+color: #ccc;
+}
+
+.weui-cell__hd--icon {
+width: 24px;
+height: 24px;
+margin-right: 10px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100%;
+}
+
+.weui-cell__hd--image {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+.weui-cell__hd--avatar {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.weui-cell__hd--avatar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.weui-cell__bd--icon {
+margin-left: 34px;
+}
+
+.weui-cell__bd--image {
+margin-left: 50px;
+}
+
+.weui-cell__bd--avatar {
+margin-left: 50px;
+}
+
+.weui-cell__ft--icon {
+margin-right: 34px;
+}
+
+.weui-cell__ft--image {
+margin-right: 50px;
+}
+
+.weui-cell__ft--avatar {
+margin-right: 50px;
+}
+
+.weui-cell__bd--no-wrap {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.weui-cell__bd--wrap {
+white-space: normal;
+word-wrap: break-word;
+}
+
+.weui-cell__bd--multi-line {
+line-height: 1.5;
+}
+
+.weui-cell__bd--text-center {
+text-align: center;
+}
+
+.weui-cell__bd--text-right {
+text-align: right;
+}
+
+.weui-cell__bd--text-left {
+text-align: left;
+}
+
+.weui-cell__bd--text-bold {
+font-weight: bold;
+}
+
+.weui-cell__bd--text-small {
+font-size: 12px;
+}
+
+.weui-cell__bd--text-large {
+font-size: 18px;
+}
+
+.weui-cell__bd--text-primary {
+color: #1aad19;
+}
+
+.weui-cell__bd--text-danger {
+color: #f00;
+}
+
+.weui-cell__bd--text-warning {
+color: #ff9900;
+}
+
+.weui-cell__bd--text-success {
+color: #0d8c13;
+}
+
+.weui-cell__bd--text-info {
+color: #00a1d6;
+}
+
+.weui-cell__bd--text-muted {
+color: #888;
+}
+
+.weui-cell__bd--text-white {
+color: #fff;
+}
+
+.weui-cell__bd--bg-primary {
+background-color: #1aad19;
+color: #fff;
+}
+
+.weui-cell__bd--bg-danger {
+background-color: #f00;
+color: #fff;
+}
+
+.weui-cell__bd--bg-warning {
+background-color: #ff9900;
+color: #fff;
+}
+
+.weui-cell__bd--bg-success {
+background-color: #0d8c13;
+color: #fff;
+}
+
+.weui-cell__bd--bg-info {
+background-color: #00a1d6;
+color: #fff;
+}
+
+.weui-cell__bd--bg-muted {
+background-color: #eee;
+color: #888;
+}
+
+.weui-cell__bd--bg-white {
+background-color: #fff;
+color: #333;
+}
